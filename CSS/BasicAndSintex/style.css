@@ -1,0 +1,22 @@
+*{
+    background-color:antiquewhite;
+}
+
+h1{
+    background-color: burlywood;
+    color:brown;
+}
+
+.class{
+    background-color: coral;
+}
+.Placeholder{
+    color: cadetblue;
+}
+.textcolor{
+    color: chocolate;
+}
+
+#id{
+    background-color:lightseagreen;
+}
