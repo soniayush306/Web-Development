@@ -425,56 +425,156 @@
     <br />
     <hr />
 
-    <h1>Task 5:</h1>
+    <h1></h1>
     <fieldset>
       <h2 align="center">Application Form</h2>
       <fieldset>
-        <legend>
-          Personal Details
-        </legend>
+        <legend>Personal Details</legend>
         <table cellpadding="20">
-            <tr>
-                <td>
-                    <label for="name">Applicant's Full Name</label>
-                </td>
-                <td>
-                    <input type="text" name="name" id="name">
-                </td>
-                <td>
-                    <label for="careOf">Care of</label>
-                </td>
-                <td>
-                    <input type="radio" name="careOf" id="parent" value="parent">
-                    <span>Parents</span>
-                    <input type="radio" name="careOf" id="gardiun" value="gardiun">
-                    <span>Guardian</span>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="fatherName">Fathers Name</label>
-                </td>
-                <td>
-                    <select name="pronoun" id="pronoun">
-                        <option value="Mr.">Mr.</option>
-                    </select>
-                    <input type="text" name="fatherName" id="fatherName">
-                </td>
-                <td>
-                    <label for="fatherName">Mothers Name</label>
-                </td>
-                <td>
-                    <select name="pronoun2" id="pronoun2">
-                        <option value="Mrs.">Mrs.</option>
-                    </select>
-                    <input type="text" name="MotherName" id="MOtherName">
-                </td>
-            </tr>
-            <tr>
-                
-            </tr>
+          <tr>
+            <td>
+              <label for="name">Applicant's Full Name</label>
+            </td>
+            <td>
+              <input type="text" name="name" id="name" />
+            </td>
+            <td>
+              <label for="careOf">Care of</label>
+            </td>
+            <td>
+              <input type="radio" name="careOf" id="parent" value="parent" />
+              <span>Parents</span>
+              <input type="radio" name="careOf" id="gardiun" value="gardiun" />
+              <span>Guardian</span>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="fatherName">Fathers Name</label>
+            </td>
+            <td>
+              <select name="pronoun" id="pronoun">
+                <option value="Mr.">Mr.</option>
+              </select>
+              <input type="text" name="fatherName" id="fatherName" />
+            </td>
+            <td>
+              <label for="fatherName">Mothers Name</label>
+            </td>
+            <td>
+              <select name="pronoun2" id="pronoun2">
+                <option value="Mrs.">Mrs.</option>
+              </select>
+              <input type="text" name="MotherName" id="MOtherName" />
+            </td>
+          </tr>
+          <tr></tr>
         </table>
       </fieldset>
+    </fieldset>
+
+    <hr />
+
+    <h1>Task 6:</h1>
+    <fieldset>
+      <table>
+        <tr>
+          <td rowspan="20">
+            <img
+              src="./Screenshot 2026-09-20 111200.png"
+              alt=""
+              width="500px"
+            />
+          </td>
+          <td colspan="3">
+            <h3 align="center">Doctors Appointment Form</h3>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="date">Appointment Date</label>
+          </td>
+          <td>
+            <input type="date" name="date" id="date" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="time">Appointment Time</label>
+          </td>
+          <td>
+            <input type="time" name="time" id="time" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="name">Name</label>
+          </td>
+          <td>
+            <input type="text" name="name" id="name" placeholder="First" />
+          </td>
+          <td>
+            <input type="text" name="name" id="name" placeholder="Last" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="gender">Gender</label>
+          </td>
+          <td>
+            <input type="radio" name="gender" id="male" value="male" />
+            <span>Male</span>
+            <input type="radio" name="gender" id="female" value="female" />
+            <span>Female</span>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="phone">Phone</label>
+          </td>
+          <td>
+            <input type="number" name="phone" id="phone" placeholder="####" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="add">Address</label>
+          </td>
+          <td>
+            <input type="text" name="add" id="city" placeholder="city" />
+          </td>
+          <td>
+            <input type="text" name="name" id="state" placeholder="state" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="qoary">Your Quary</label>
+          </td>
+          <td>
+            <textarea name="ddress" id="address"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="type">Appointment Type</label>
+          </td>
+          <td>
+            <label for="type"
+              >Select which appointment type(s) you required</label
+            >
+            <br />
+            <input type="checkbox" name="skills" id="java" value="java" />
+            <span>Cervix checkup</span> <br />
+            <input type="checkbox" name="skills" id="css" value="css" />
+            <span>Heart checkup</span> <br />
+            <input type="checkbox" name="skills" id="python" value="python" />
+            <span>Eye checkup</span> <br />
+            <input type="checkbox" name="skills" id="DSA" value="DSA" />
+            <span>Hearing Test</span> <br />
+          </td>
+        </tr>
+      </table>
     </fieldset>
   </body>
 </html>
