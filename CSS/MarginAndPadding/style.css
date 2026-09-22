@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    background-color: aliceblue;
+    padding: 50px;
+}
+b{
+    color: whitesmoke;
+}
+
+.card{
+    text-align: center;
+    height: 300px;
+    width: 200px;
+    border: 2px dashed black;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px;
+    display: inline-block;
+    box-shadow: 1px 1px 20px 3px rgb(157, 156, 156);
+}
+
+.button{
+    border-radius: 20px;
+    margin: 10px;
+    background-color:cornflowerblue;
+    box-shadow: 0px 0px 5px 2px black;
+}
+
+#card1{
+    background-color: rgb(157, 227, 255);
+}
+#card2{
+    background-color: pink;
+}
+#card3{
+    background-color: rgb(99, 233, 188);
+}
+#card4{
+    background-color:rgb(247, 198, 182);
+}
