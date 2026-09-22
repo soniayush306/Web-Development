@@ -21,14 +21,18 @@ body{
     padding: 2px 25px;
     box-shadow: 1.5px 1.5px 2px 3px gray;
 }
+
 .button{
-    background-color: rgb(236, 128, 66);
+    background-color: rgb(255, 123, 46);
     border-radius: 1.5cap;
     padding: 2px 25px;
     width: 120px;
 }
+.button:hover{
+    background-color: rgb(255, 94, 0);
+}
+
 .skill{
-    background-color: aliceblue;
     height: 5cap;
     width:4cap;
     padding: 5px 5px;
@@ -37,6 +41,7 @@ body{
     animation: forwards;
     background-color: lightblue;
 }
+
 .skillbutton{
     background-color:aliceblue;
     border-radius: 1cap;
@@ -47,6 +52,7 @@ body{
     background-color: lightblue;
     box-shadow: 1px 1px 2px 2px gray;
 }
+
 .buttonimg{
     width:5cap;
     position: sticky;
