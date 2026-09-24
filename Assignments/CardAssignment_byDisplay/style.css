@@ -10,16 +10,18 @@
     align-items: center;
     display: flex;
     justify-content: space-evenly;
+    box-shadow: 0px 0px 40px 2px gray;
 }
 
 .innercrd{
     width: 300px;
     height: 450px;
     padding: 20px;
-    border: 2px solid black;
+    border: 2px dashed black;
     border-radius: 4cap;
     text-align: center;
     display: inline-block;
+    box-shadow: 0px 0px 15px 0px gray;
 }
 
 header{
@@ -52,4 +54,17 @@ button{
     display: grid;
     grid-template-columns: auto auto auto auto auto auto;
     justify-content: center;
+}
+
+#card1{
+    background-color: rgb(157, 227, 255);
+}
+#card2{
+    background-color: pink;
+}
+#card3{
+    background-color: rgb(99, 233, 188);
+}
+#card4{
+    background-color:rgb(247, 198, 182);
 }
