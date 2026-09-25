@@ -26,9 +26,11 @@
     border: 2px solid black;
     border-radius: 10px;
 }
-
-p{
-    padding: 10px 80px;
+#footer{
+    width: 700px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 #chat{
     height: 40px;
@@ -40,6 +42,26 @@ p{
     position: fixed;
     bottom: 50px;
     right: 80px;
+}
+
+.button{
+    width:80px;
+    height: 100px;
+    background-color: blueviolet;
+    border: 2px solid purple;
+    border-radius: 10px;
+}
+.buttonimg{
+    align-items: start;
+    width:5cap;
+}
+
+p{
+    padding: 10px 80px;
+}
+h4{
+    align-items: center;
+    color: aliceblue;
 }
 
 
