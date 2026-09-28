@@ -1,214 +1,142 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!doctype html>
+<html>
+  <head>
     <title>Ayush Studio</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
 
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+      body {
+        font-family: Arial;
+        color: white;
+        background: #080b12;
+        text-align: center;
+      }
+      nav {
+        padding: 25px 8%;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #ffffff15;
+      }
+      .logo {
+        color: #d4af37;
+        font-weight: bold;
+      }
+      nav a {
+        color: #aaa;
+        text-decoration: none;
+        margin-left: 20px;
+      }
 
-        body {
-            font-family: Arial, sans-serif;
-            background: #080b12;
-            color: #fff;
-        }
+      .hero {
+        padding: 120px 20px;
+      }
+      .tag {
+        color: #d4af37;
+        letter-spacing: 3px;
+        font-size: 12px;
+      }
+      h1 {
+        font-size: 55px;
+        margin: 20px;
+      }
+      h1 span {
+        color: #d4af37;
+      }
+      p {
+        color: #999;
+        line-height: 1.6;
+      }
 
-        nav {
-            height: 70px;
-            padding: 0 8%;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            border-bottom: 1px solid #ffffff12;
-        }
+      .btn {
+        display: inline-block;
+        margin: 25px 5px;
+        padding: 13px 25px;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .main {
+        background: #d4af37;
+        color: #111;
+      }
+      .alt {
+        border: 1px solid #ffffff30;
+        color: white;
+      }
 
-        .logo {
-            font-size: 22px;
-            font-weight: bold;
-            color: #d4af37;
-        }
+      .stats {
+        display: flex;
+        justify-content: center;
+        gap: 70px;
+        padding: 25px;
+        border-top: 1px solid #ffffff15;
+      }
+      .stats h2 {
+        color: #d4af37;
+      }
+      .stats p {
+        font-size: 10px;
+      }
 
-        nav a {
-            color: #9ca3af;
-            text-decoration: none;
-            margin-left: 25px;
-            font-size: 14px;
-        }
+      footer {
+        padding: 20px;
+        color: #555;
+        font-size: 12px;
+      }
 
-        nav a:hover {
-            color: #d4af37;
-        }
-
-        .hero {
-            min-height: 75vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            padding: 50px 20px;
-        }
-
-        .content {
-            max-width: 700px;
-        }
-
-        .tag {
-            color: #d4af37;
-            font-size: 12px;
-            letter-spacing: 3px;
-        }
-
+      @media (max-width: 600px) {
         h1 {
-            font-size: 58px;
-            margin: 18px 0;
-            line-height: 1.1;
+          font-size: 40px;
         }
-
-        h1 span {
-            color: #d4af37;
+        .hero {
+          padding: 90px 20px;
         }
-
-        .intro {
-            color: #9ca3af;
-            font-size: 16px;
-            line-height: 1.7;
-            max-width: 550px;
-            margin: auto;
-        }
-
-        .buttons {
-            margin-top: 30px;
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 13px 25px;
-            margin: 5px;
-            border-radius: 10px;
-            text-decoration: none;
-            font-size: 14px;
-            font-weight: bold;
-        }
-
-        .primary {
-            background: #d4af37;
-            color: #111;
-        }
-
-        .secondary {
-            color: #fff;
-            border: 1px solid #ffffff25;
-        }
-
         .stats {
-            display: flex;
-            justify-content: center;
-            gap: 70px;
-            padding: 25px;
-            border-top: 1px solid #ffffff10;
+          gap: 30px;
         }
-
-        .stats h2 {
-            color: #d4af37;
-            font-size: 24px;
-        }
-
-        .stats p {
-            color: #6b7280;
-            font-size: 11px;
-            margin-top: 5px;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            color: #4b5563;
-            font-size: 12px;
-        }
-
-        @media (max-width: 600px) {
-            nav {
-                padding: 0 5%;
-            }
-
-            nav a {
-                margin-left: 10px;
-            }
-
-            h1 {
-                font-size: 42px;
-            }
-
-            .stats {
-                gap: 30px;
-            }
-        }
+      }
     </style>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <nav>
-        <div class="logo">AYUSH.</div>
-
-        <div>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Work</a>
-        </div>
+      <b class="logo">AYUSH.</b>
+      <div>
+        <a href="#">Home</a>
+        <a href="#">Work</a>
+        <a href="#">Contact</a>
+      </div>
     </nav>
 
     <section class="hero">
-        <div class="content">
+      <span class="tag">CREATIVE • DIGITAL • PREMIUM</span>
+      <h1>Ideas that look<br /><span>remarkable.</span></h1>
 
-            <p class="tag">CREATIVE • DIGITAL • PREMIUM</p>
+      <p>Building clean, modern and meaningful digital experiences.</p>
 
-            <h1>
-                Ideas that look<br>
-                <span>remarkable.</span>
-            </h1>
-
-            <p class="intro">
-                Welcome to Ayush Studio — a space where
-                creativity meets technology to build clean,
-                modern and meaningful digital experiences.
-            </p>
-
-            <div class="buttons">
-                <a href="#" class="btn primary">Explore My Work</a>
-                <a href="#" class="btn secondary">Contact Me</a>
-            </div>
-
-        </div>
+      <a href="#" class="btn main">Explore Work</a>
+      <a href="#" class="btn alt">Contact Me</a>
     </section>
 
-    <section class="stats">
+    <div class="stats">
+      <div>
+        <h2>6K+</h2>
+        <p>COMMUNITY</p>
+      </div>
+      <div>
+        <h2>5M+</h2>
+        <p>REACH</p>
+      </div>
+      <div>
+        <h2>50+</h2>
+        <p>PROJECTS</p>
+      </div>
+    </div>
 
-        <div>
-            <h2>06K+</h2>
-            <p>COMMUNITY</p>
-        </div>
-
-        <div>
-            <h2>05M+</h2>
-            <p>REACH</p>
-        </div>
-
-        <div>
-            <h2>50+</h2>
-            <p>PROJECTS</p>
-        </div>
-
-    </section>
-
-    <footer>
-        © 2026 Ayush Studio • Crafted with simplicity.
-    </footer>
-
-</body>
+    <footer>© 2026 Ayush Studio</footer>
+  </body>
 </html>
