@@ -1,156 +1,103 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Nova</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+<head>
+<title>Nova</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
 
-    <style>
-      * {
-        box-sizing: border-box;
-        margin: 0;
-      }
-      body {
-        font-family: Arial;
-        background: #0b0b16;
-        color: #fff;
-        padding: 25px 8%;
-      }
-      nav {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
-      .logo {
-        font-size: 22px;
-        font-weight: bold;
-      }
-      .logo span {
-        color: #8b5cf6;
-      }
-      nav a {
-        color: #aaa;
-        text-decoration: none;
-        margin-left: 22px;
-      }
+<style>
+*{box-sizing:border-box;margin:0}
+body{
+font-family:Arial;background:#0b0b16;color:#fff;
+padding:25px 8%
+}
+nav{display:flex;justify-content:space-between;align-items:center}
+.logo{font-size:22px;font-weight:bold}
+.logo span{color:#8b5cf6}
+nav a{color:#aaa;text-decoration:none;margin-left:22px}
 
-      .hero {
-        max-width: 800px;
-        margin: 120px auto 80px;
-        text-align: center;
-      }
-      .badge {
-        color: #a78bfa;
-        background: #8b5cf615;
-        padding: 8px 16px;
-        border-radius: 20px;
-        font-size: 12px;
-      }
-      h1 {
-        font-size: 58px;
-        margin: 25px 0 15px;
-      }
-      h1 span {
-        background: linear-gradient(90deg, #8b5cf6, #22d3ee);
-        color: transparent;
-        background-clip: text;
-      }
-      .hero p {
-        color: #999;
-        line-height: 1.7;
-      }
+.hero{
+max-width:800px;margin:120px auto 80px;text-align:center
+}
+.badge{
+color:#a78bfa;background:#8b5cf615;
+padding:8px 16px;border-radius:20px;font-size:12px
+}
+h1{font-size:58px;margin:25px 0 15px}
+h1 span{
+background:linear-gradient(90deg,#8b5cf6,#22d3ee);
+color:transparent;background-clip:text
+}
+.hero p{color:#999;line-height:1.7}
 
-      .btn {
-        display: inline-block;
-        margin-top: 30px;
-        padding: 13px 25px;
-        border-radius: 9px;
-        background: #8b5cf6;
-        color: white;
-        text-decoration: none;
-      }
+.btn{
+display:inline-block;margin-top:30px;
+padding:13px 25px;border-radius:9px;
+background:#8b5cf6;color:white;text-decoration:none
+}
 
-      .cards {
-        display: flex;
-        gap: 15px;
-        justify-content: center;
-      }
-      .card {
-        padding: 22px;
-        width: 180px;
-        background: #ffffff08;
-        border: 1px solid #ffffff12;
-        border-radius: 15px;
-      }
-      .card h2 {
-        color: #a78bfa;
-      }
-      .card p {
-        color: #777;
-        font-size: 12px;
-        margin-top: 6px;
-      }
+.cards{
+display:flex;gap:15px;justify-content:center
+}
+.card{
+padding:22px;width:180px;
+background:#ffffff08;border:1px solid #ffffff12;
+border-radius:15px
+}
+.card h2{color:#a78bfa}
+.card p{color:#777;font-size:12px;margin-top:6px}
 
-      footer {
-        text-align: center;
-        color: #555;
-        margin-top: 80px;
-        font-size: 12px;
-      }
+footer{text-align:center;color:#555;margin-top:80px;font-size:12px}
 
-      @media (max-width: 600px) {
-        h1 {
-          font-size: 40px;
-        }
-        .cards {
-          flex-wrap: wrap;
-        }
-        nav a {
-          margin-left: 10px;
-        }
-      }
-    </style>
-  </head>
+@media(max-width:600px){
+h1{font-size:40px}
+.cards{flex-wrap:wrap}
+nav a{margin-left:10px}
+}
+</style>
+</head>
 
-  <body>
-    <nav>
-      <div class="logo">N<span>OVA</span></div>
-      <div>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-      </div>
-    </nav>
+<body>
 
-    <section class="hero">
-      <span class="badge">WELCOME TO NOVA</span>
+<nav>
+<div class="logo">N<span>OVA</span></div>
+<div>
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Contact</a>
+</div>
+</nav>
 
-      <h1>Build something <span>different.</span></h1>
+<section class="hero">
+<span class="badge">WELCOME TO NOVA</span>
 
-      <p>
-        A modern digital space designed for creative ideas, innovative projects
-        and meaningful experiences.
-      </p>
+<h1>Build something <span>different.</span></h1>
 
-      <a class="btn" href="#">Get Started →</a>
-    </section>
+<p>
+A modern digital space designed for creative ideas,
+innovative projects and meaningful experiences.
+</p>
 
-    <div class="cards">
-      <div class="card">
-        <h2>01</h2>
-        <p>Creative Design</p>
-      </div>
+<a class="btn" href="#">Get Started →</a>
+</section>
 
-      <div class="card">
-        <h2>02</h2>
-        <p>Modern Technology</p>
-      </div>
+<div class="cards">
+<div class="card">
+<h2>01</h2>
+<p>Creative Design</p>
+</div>
 
-      <div class="card">
-        <h2>03</h2>
-        <p>Smart Solutions</p>
-      </div>
-    </div>
+<div class="card">
+<h2>02</h2>
+<p>Modern Technology</p>
+</div>
 
-    <footer>© 2026 NOVA — Designed for the future.</footer>
-  </body>
+<div class="card">
+<h2>03</h2>
+<p>Smart Solutions</p>
+</div>
+</div>
+
+<footer>© 2026 NOVA — Designed for the future.</footer>
+
+</body>
 </html>
