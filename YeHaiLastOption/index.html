@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
   <head>
-    <title>Ayush Studio</title>
+    <title>Nova</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
 
     <style>
@@ -11,80 +11,89 @@
       }
       body {
         font-family: Arial;
-        color: white;
-        background: #080b12;
-        text-align: center;
+        background: #0b0b16;
+        color: #fff;
+        padding: 25px 8%;
       }
       nav {
-        padding: 25px 8%;
         display: flex;
         justify-content: space-between;
-        border-bottom: 1px solid #ffffff15;
+        align-items: center;
       }
       .logo {
-        color: #d4af37;
+        font-size: 22px;
         font-weight: bold;
+      }
+      .logo span {
+        color: #8b5cf6;
       }
       nav a {
         color: #aaa;
         text-decoration: none;
-        margin-left: 20px;
+        margin-left: 22px;
       }
 
       .hero {
-        padding: 120px 20px;
+        max-width: 800px;
+        margin: 120px auto 80px;
+        text-align: center;
       }
-      .tag {
-        color: #d4af37;
-        letter-spacing: 3px;
+      .badge {
+        color: #a78bfa;
+        background: #8b5cf615;
+        padding: 8px 16px;
+        border-radius: 20px;
         font-size: 12px;
       }
       h1 {
-        font-size: 55px;
-        margin: 20px;
+        font-size: 58px;
+        margin: 25px 0 15px;
       }
       h1 span {
-        color: #d4af37;
+        background: linear-gradient(90deg, #8b5cf6, #22d3ee);
+        color: transparent;
+        background-clip: text;
       }
-      p {
+      .hero p {
         color: #999;
-        line-height: 1.6;
+        line-height: 1.7;
       }
 
       .btn {
         display: inline-block;
-        margin: 25px 5px;
+        margin-top: 30px;
         padding: 13px 25px;
-        border-radius: 10px;
-        text-decoration: none;
-        font-weight: bold;
-      }
-      .main {
-        background: #d4af37;
-        color: #111;
-      }
-      .alt {
-        border: 1px solid #ffffff30;
+        border-radius: 9px;
+        background: #8b5cf6;
         color: white;
+        text-decoration: none;
       }
 
-      .stats {
+      .cards {
         display: flex;
+        gap: 15px;
         justify-content: center;
-        gap: 70px;
-        padding: 25px;
-        border-top: 1px solid #ffffff15;
       }
-      .stats h2 {
-        color: #d4af37;
+      .card {
+        padding: 22px;
+        width: 180px;
+        background: #ffffff08;
+        border: 1px solid #ffffff12;
+        border-radius: 15px;
       }
-      .stats p {
-        font-size: 10px;
+      .card h2 {
+        color: #a78bfa;
+      }
+      .card p {
+        color: #777;
+        font-size: 12px;
+        margin-top: 6px;
       }
 
       footer {
-        padding: 20px;
+        text-align: center;
         color: #555;
+        margin-top: 80px;
         font-size: 12px;
       }
 
@@ -92,11 +101,11 @@
         h1 {
           font-size: 40px;
         }
-        .hero {
-          padding: 90px 20px;
+        .cards {
+          flex-wrap: wrap;
         }
-        .stats {
-          gap: 30px;
+        nav a {
+          margin-left: 10px;
         }
       }
     </style>
@@ -104,39 +113,44 @@
 
   <body>
     <nav>
-      <b class="logo">AYUSH.</b>
+      <div class="logo">N<span>OVA</span></div>
       <div>
         <a href="#">Home</a>
-        <a href="#">Work</a>
+        <a href="#">About</a>
         <a href="#">Contact</a>
       </div>
     </nav>
 
     <section class="hero">
-      <span class="tag">CREATIVE • DIGITAL • PREMIUM</span>
-      <h1>Ideas that look<br /><span>remarkable.</span></h1>
+      <span class="badge">WELCOME TO NOVA</span>
 
-      <p>Building clean, modern and meaningful digital experiences.</p>
+      <h1>Build something <span>different.</span></h1>
 
-      <a href="#" class="btn main">Explore Work</a>
-      <a href="#" class="btn alt">Contact Me</a>
+      <p>
+        A modern digital space designed for creative ideas, innovative projects
+        and meaningful experiences.
+      </p>
+
+      <a class="btn" href="#">Get Started →</a>
     </section>
 
-    <div class="stats">
-      <div>
-        <h2>6K+</h2>
-        <p>COMMUNITY</p>
+    <div class="cards">
+      <div class="card">
+        <h2>01</h2>
+        <p>Creative Design</p>
       </div>
-      <div>
-        <h2>5M+</h2>
-        <p>REACH</p>
+
+      <div class="card">
+        <h2>02</h2>
+        <p>Modern Technology</p>
       </div>
-      <div>
-        <h2>50+</h2>
-        <p>PROJECTS</p>
+
+      <div class="card">
+        <h2>03</h2>
+        <p>Smart Solutions</p>
       </div>
     </div>
 
-    <footer>© 2026 Ayush Studio</footer>
+    <footer>© 2026 NOVA — Designed for the future.</footer>
   </body>
 </html>
