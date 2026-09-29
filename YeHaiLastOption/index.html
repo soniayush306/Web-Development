@@ -1,56 +1,62 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Nova</title>
+<title>Vertex</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
 <style>
 *{box-sizing:border-box;margin:0}
 body{
-font-family:Arial;background:#0b0b16;color:#fff;
+font-family:Arial;color:#172033;background:#f5f7fb;
 padding:25px 8%
 }
-nav{display:flex;justify-content:space-between;align-items:center}
-.logo{font-size:22px;font-weight:bold}
-.logo span{color:#8b5cf6}
-nav a{color:#aaa;text-decoration:none;margin-left:22px}
-
+nav{
+display:flex;justify-content:space-between;
+align-items:center;padding:15px 0
+}
+.logo{font-size:22px;font-weight:bold;color:#2563eb}
+nav a{
+text-decoration:none;color:#64748b;margin-left:22px
+}
 .hero{
-max-width:800px;margin:120px auto 80px;text-align:center
+text-align:center;padding:100px 10px 70px
 }
-.badge{
-color:#a78bfa;background:#8b5cf615;
-padding:8px 16px;border-radius:20px;font-size:12px
+.tag{
+color:#2563eb;font-size:12px;
+font-weight:bold;letter-spacing:2px
 }
-h1{font-size:58px;margin:25px 0 15px}
-h1 span{
-background:linear-gradient(90deg,#8b5cf6,#22d3ee);
-color:transparent;background-clip:text
+h1{
+font-size:58px;margin:18px auto;
+max-width:700px
 }
-.hero p{color:#999;line-height:1.7}
-
+h1 span{color:#2563eb}
+.hero p{
+max-width:550px;margin:auto;
+color:#64748b;line-height:1.7
+}
 .btn{
-display:inline-block;margin-top:30px;
-padding:13px 25px;border-radius:9px;
-background:#8b5cf6;color:white;text-decoration:none
+display:inline-block;margin-top:28px;
+padding:14px 26px;border-radius:8px;
+background:#2563eb;color:white;
+text-decoration:none;font-weight:bold
 }
-
 .cards{
-display:flex;gap:15px;justify-content:center
+display:flex;gap:18px
 }
 .card{
-padding:22px;width:180px;
-background:#ffffff08;border:1px solid #ffffff12;
-border-radius:15px
+flex:1;padding:28px;background:white;
+border-radius:16px;border:1px solid #e5e7eb
 }
-.card h2{color:#a78bfa}
-.card p{color:#777;font-size:12px;margin-top:6px}
-
-footer{text-align:center;color:#555;margin-top:80px;font-size:12px}
-
-@media(max-width:600px){
+.icon{font-size:25px}
+.card h3{margin:15px 0 8px}
+.card p{color:#64748b;font-size:13px;line-height:1.6}
+footer{
+text-align:center;margin:60px 0 10px;
+color:#94a3b8;font-size:12px
+}
+@media(max-width:700px){
 h1{font-size:40px}
-.cards{flex-wrap:wrap}
+.cards{flex-direction:column}
 nav a{margin-left:10px}
 }
 </style>
@@ -59,45 +65,52 @@ nav a{margin-left:10px}
 <body>
 
 <nav>
-<div class="logo">N<span>OVA</span></div>
+<div class="logo">VERTEX</div>
 <div>
 <a href="#">Home</a>
-<a href="#">About</a>
+<a href="#">Services</a>
 <a href="#">Contact</a>
 </div>
 </nav>
 
 <section class="hero">
-<span class="badge">WELCOME TO NOVA</span>
+<div class="tag">SMART • SIMPLE • EFFECTIVE</div>
 
-<h1>Build something <span>different.</span></h1>
+<h1>
+Build better. <span>Move faster.</span>
+</h1>
 
 <p>
-A modern digital space designed for creative ideas,
-innovative projects and meaningful experiences.
+A modern platform designed to help teams
+turn ideas into powerful digital experiences.
 </p>
 
 <a class="btn" href="#">Get Started →</a>
 </section>
 
-<div class="cards">
+<section class="cards">
+
 <div class="card">
-<h2>01</h2>
-<p>Creative Design</p>
+<div class="icon">⚡</div>
+<h3>Fast</h3>
+<p>Simple workflows that help you get things done faster.</p>
 </div>
 
 <div class="card">
-<h2>02</h2>
-<p>Modern Technology</p>
+<div class="icon">◈</div>
+<h3>Reliable</h3>
+<p>Designed with consistency, clarity and performance in mind.</p>
 </div>
 
 <div class="card">
-<h2>03</h2>
-<p>Smart Solutions</p>
-</div>
+<div class="icon">✦</div>
+<h3>Modern</h3>
+<p>A clean interface built for today's digital world.</p>
 </div>
 
-<footer>© 2026 NOVA — Designed for the future.</footer>
+</section>
+
+<footer>© 2026 Vertex — Built with simplicity.</footer>
 
 </body>
 </html>
