@@ -4,19 +4,37 @@
 }
 
 .supper-box{
-    margin: 100px;
+    margin: 50px;
     display: grid;
     grid-template-columns: auto auto auto auto auto;
     gap: 50px;
-}
-.box{
-    width: 200px;
-    height: 300px;
-    border: 1px solid black;
-    border-radius: 10px;
-    display: flex;
     
-    align-items: center;
+    .box{
+        width: 200px;
+        height: 300px;
+        font-size: xx-large;
+        font-weight: 700;
+        text-align: center;
+        border: 2px solid black;
+        border-radius: 10px;
+        box-shadow: 0px 0px 40px 0px gray;
+    }
+
+    #b1{
+        background-color: skyblue;
+    }
+    #b2{
+        background-color: rgb(222, 135, 235);
+    }
+    #b3{
+        background-color: rgb(135, 235, 145);
+    }
+    #b4{
+        background-color: rgb(223, 235, 135);
+    }
+    #b5{
+        background-color: pink;
+    }
 }
 
 .img1{
@@ -27,9 +45,17 @@
 
     img{
         width: 400px;
-        height: 360px;
+        height: 370px;
         display: flex;
-        align-items: center;;
+        align-items: center;
+        border-radius: 50px;
+        box-shadow: 0px 0px 50px 0px rgb(83, 83, 181);
+    }
+    p{
+        color: aliceblue;
+        padding: 20px;
+        background-color: rgb(74, 74, 138);
+        box-shadow: 0px 0px 40px 0px rgb(36, 34, 36);
     }
 }
 .img2{
@@ -40,19 +66,33 @@
 
     img{
         width: 400px;
-        height: 300px;
+        height: 370px;
         display: flex;
-        align-items: center;;
+        align-items: center;
+        border-radius: 100%;
+        box-shadow: 0px 0px 50px 0px rgb(44, 109, 102);
+    }
+    p{
+        color: aliceblue;
+        padding: 20px;
+        background-color: rgb(39, 95, 93);
+        box-shadow: 0px 0px 40px 0px rgb(39, 43, 44);
     }
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1350px){
+    .supper-box{
+        grid-template-columns: auto auto auto auto;
+    }
+}
+@media screen and (max-width: 1100px){
     .supper-box{
         grid-template-columns: auto auto auto;
     }
 }
-@media screen and (max-width: 700px){
+@media screen and (max-width: 850px){
     .supper-box{
         grid-template-columns: auto auto;
     }
 }
+
