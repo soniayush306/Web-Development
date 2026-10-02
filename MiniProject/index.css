@@ -2,11 +2,11 @@
     padding: 0px;
     margin: 0px;
 
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
     
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
 }
 
 
@@ -23,7 +23,7 @@ body{
     align-items: center;
 
     .logo{
-        font-weight: 700;
+        font-weight: 800;
         font-size: x-large;
         margin: 20px;
     }
@@ -34,7 +34,7 @@ body{
         .menu-items{
             height: 30px;
             font-weight: 600;
-            font-size:medium;
+            font-size: medium;
             color: rgb(160, 114, 100);
             margin: 2px;
             padding: 4px 20px;
@@ -55,6 +55,9 @@ body{
         #start{
             color: white;
             background-color: rgb(73, 76, 255);
+        }
+        #start:hover{
+            transform: translate();
         }
     }
 }
