@@ -78,6 +78,7 @@ body{
     .home-partition1{
         width: 40vw;
         border: 1px solid black;
+        padding: 80px;
 
         #h1{
             font-size: xx-large;
