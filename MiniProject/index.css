@@ -16,23 +16,30 @@ body{
 }
 
 .header{
-    background: rgba(255, 255, 255, 0);
+    background-color:rgba(240, 248, 255, 0.945);
+    width: 100%;
+    height: 70px;
     display: flex;
-    justify-content: space-around;
-    position: sticky;
+    position: fixed;
     align-items: center;
+    padding-left: 140px;
+    box-shadow: 0px 0px 10px 0px lightgrey;
 
     .logo{
         font-weight: 800;
         font-size: x-large;
         padding: 25px;
+        #dot{
+            color: rgb(69, 69, 253);
+        }
     }
 
     .items{
+        padding-left: 390px;
         display: flex;
 
         .menu-items{
-            height: 30px;
+            height: 40px;
             font-weight: 600;
             font-size: medium;
             color: rgb(160, 114, 100);
@@ -43,52 +50,144 @@ body{
             border-radius: 8px;
         }
         .menu-items:hover{
-            background-color: rgb(238, 242, 255);
+            background-color: rgb(229, 234, 253);
             color: black;
             cursor: pointer;
         }
 
         #home{
-            background-color: rgb(238, 242, 255);
+            background-color: rgb(229, 234, 253);
             color: black;
         }
-        #start{
+        #get-start{
             color: white;
             background-color: rgb(73, 76, 255);
         }
-        #start:hover{
-            transform: translate();
+        #get-start:hover{
+            transform: translatey(-3px);
+            transition: 0.3s;
+            box-shadow: 0px 0px 10px 0px rgba(139, 141, 246, 0.849);;
         }
     }
 }
 
 .home1{
-    height: 78vh;
-    background-color: rgb(238, 242, 255);
+    padding: 90px 0px 0px 0px;
+    height: 86vh;
+    background-color: rgb(234, 237, 252);
     display: flex;
-    justify-content: space-evenly;
     
 
-    .trusted{
-        font-size: smaller;
-        font-weight: 500;
-        color: blue;
+    .home-left{
+        width: 590px;
+        margin: 30px 0px 100px 160px;
+        padding: 10px;
+
+        .tag-line{
+            padding: 20px 15px;
+            text-transform: uppercase;
+            font-size: smaller;
+            font-weight: 700;
+            color: rgb(58, 58, 255);
+        }
+
+        #digital-product{
+            color: rgb(69, 69, 253);
+        }
+        .para{
+            padding: 25px 0px 20px 0px;
+            color: rgb(87, 87, 87);
+            font-size: larger;
+        }
+        .btn{
+            padding: 0px;
+            display: flex;
+            gap: 15px;
+            #start{
+                background-color: rgb(73, 76, 255);
+                border: 0px solid #000;
+                border-radius: 10px;
+                font-size: medium;
+                font-weight: 600;
+                color: white;
+                width: 215px;
+                height: 60px;
+            }
+            #start:hover{
+                transform: translatey(-3px);
+                transition: 0.3s;
+                box-shadow: 0px 5px 5px 0px  rgba(120, 122, 255, 0.881);
+            }
+            #explore{
+                background-color: white;
+                border: 1.5px solid rgb(229, 229, 229);
+                border-radius: 10px;
+                font-size: medium;
+                font-weight: 600;
+                width: 215px;
+                height: 60px;
+            }
+            #explore:hover{
+                transform: translatey(-3px);
+                transition: 0.3s;
+                box-shadow: 0px 5px 5px 0px  rgba(194, 194, 194, 0.881);
+            }
+        }
+        
     }
-
-    .home-partition1{
-        width: 40vw;
-        border: 1px solid black;
-        padding: 80px;
-
-        #h1{
-            font-size: xx-large;
-            font-weight: 600;
+    #review{
+        display: flex;
+        gap: 20px;
+    
+        #written{
+            margin: 20px 5px;
+        }
+        #rating{
+            font-size: small;
+            font-weight: 500;
+            color: black;
+        }
+        #client-review{
+            font-size: small;
+            color: gray;
         }
     }
 
-    .home-partition2{
-        width: 40vw;
+    .home-right{
+        width: 500px;
         border: 1px solid black;
+        margin: 100px;
+        padding: 10px;
+    }
+}
+
+.home-partition1{
+    height: 100px;
+
+    .partition1-heading{
+        color: rgb(126, 126, 126);
+        text-align: center;
+        text-transform: uppercase;
+        font-size: medium;
+        font-weight: 600;
+        margin: 25px;
+    }
+    #products{
+        display: flex;
+        justify-content: space-evenly;
+        color: rgb(184, 184, 184);
+        font-size: larger;
+        font-weight: 800;
+        margin: 0px 180px;
+
+        #shapes{
+            height: 35px;
+            width: 170px;
+        }
+        #shapes:hover{
+            cursor: pointer;
+            color: black;
+        }
     }
 }
 
