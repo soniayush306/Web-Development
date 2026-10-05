@@ -305,13 +305,14 @@ body{
             .heading{
                 font-size: large;
                 font-weight: 700;
-                color: rgb(115, 115, 115);
+                color: rgb(79, 79, 79);
                 margin: 20px 0px 10px;
             }
             .detail{
                 color: gray;
             }
             .learn{
+                font-weight: 600;
                 color:  rgb(46, 46, 247);
                 transition: 0.5s;
             }

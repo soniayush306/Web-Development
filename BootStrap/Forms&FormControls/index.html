@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+    <div class=" container p-4">
+        <h1 class="fw-bold">Course Search and Subscription</h1>
+
+        <div class="input-group">
+            <input type="text" name="search" id="search" class="form-control" placeholder="Search for a course">
+            <button class="btn btn-primary">Search</button>
+        </div>
+        <br>
+        <div class="input-group">
+            <input type="text" name="search" id="search" class="form-control" placeholder="Enter your email">
+            <button class="btn btn-success">Subscribe</button>
+        </div>
+        <br>
+        <div class="input-group">
+            <span class="input-group-text">@</span>
+            <input type="text" name="search" id="search" class="form-control" placeholder="Username">
+        </div>
+        <br>
+        <h5>Email</h5>
+        <div class="input-group">
+            <input type="text" name="email" id="email" class="form-control is-invalid" placeholder="invalid-email">
+        </div>
+        <p class="text-danger">Please enter a valid email address.</p>
+        <h5>Email</h5>
+        <div class="input-group">
+            <input type="text" name="email" id="email" class="form-control is-valid" placeholder="student@example.com">
+        </div>
+        <p class="text-success">Email address is valid.</p>
+    </div>
+
+    <div class="container">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Change Password
+        </button>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Change Password</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div>
+                    <h6>New Password</h6>
+                    <input type="text" class="form-control">
+                </div>
+                <div>
+                    <h6>Confirm Password</h6>
+                    <input type="text" class="form-control">
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
