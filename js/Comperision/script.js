@@ -9,3 +9,13 @@ console.log(a==c);
 console.log(b===d);
 console.log(b!==d);
 
+// increment decrement
+console.log(a++);
+console.log(a--);
+console.log(a);
+console.log(--a);
+
+console.log(b++);
+console.log(b++);
+console.log(--b);
+
