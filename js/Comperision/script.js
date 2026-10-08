@@ -31,3 +31,8 @@ if (a < b ) {
 }
 
 // loop
+for( var i = 0 ; i<5 ; i++) {
+    console.log("We are learning JavaScript");
+}for( var i = 0 ; i<a ; i++) {
+    console.log("We are learning JavaScript" , i);
+}
