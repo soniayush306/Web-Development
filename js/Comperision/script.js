@@ -19,3 +19,15 @@ console.log(b++);
 console.log(b++);
 console.log(--b);
 
+// 
+console.log(a > b ? "Hello" : "Bye");
+console.log(b > d ? "Good" : "Bad");
+
+// if else condition
+if (a < b ) {
+    console.log("Hello");
+} else {
+    console.log("Bye");
+}
+
+// loop
