@@ -38,3 +38,21 @@ switch(Choice) {
         
     }
 }
+
+
+// if else if
+if (Choice === 1) {
+    console.log("Check your Balance");
+} else if  (Choice === 2) {
+    console.log("Please Collect your Cash");
+} else if  (Choice === 3) {
+    console.log("Please find your transaction");
+} else if  (Choice === 4) {
+    console.log("Enter your new Pin");
+} else if  (Choice === 5) {
+    console.log("Put your cash into Machine");
+} else if (Choice === 6) {
+    console.log("Thank you for visiting");
+} else {
+    console.log("Wrong Choice");
+}
