@@ -8,6 +8,7 @@ console.log("6. Exit");
 
 let Choice = 1 ;
 
+//switch
 switch(Choice) {
     case 1: {
         console.log("Check your Balance");
