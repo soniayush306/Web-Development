@@ -18,7 +18,7 @@ function calculate(a, b, c) {
 let answer = calculate(5, 6, 7);
 console.log(answer);
 
-// function
+// function expression
 const greet = function () {
   console.log("Welcom to RICR");
 };
