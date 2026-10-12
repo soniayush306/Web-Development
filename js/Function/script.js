@@ -9,7 +9,7 @@ function sum_with_d(x, y = 10) {
   console.log(x + y);
 }
 sum_with_d(7);
-sum_with_d(8, 10);
+sum_with_d(8, 11);
 
 // return
 function calculate(a, b, c) {
