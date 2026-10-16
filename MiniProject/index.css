@@ -6,7 +6,6 @@
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-    
 }
 
 
@@ -24,6 +23,7 @@ body{
     align-items: center;
     padding-left: 140px;
     box-shadow: 0px 0px 10px 0px lightgrey;
+    z-index: 10;
 
     .logo{
         font-weight: 800;
@@ -37,6 +37,7 @@ body{
     .items{
         padding-left: 390px;
         display: flex;
+        align-items: center;
 
         .menu-items{
             height: 40px;
@@ -49,6 +50,7 @@ body{
             align-items: center;
             border-radius: 8px;
             transition: 0.4s;
+            text-decoration: none;
         }
         .menu-items:hover{
             background-color: rgb(229, 234, 253);
@@ -62,8 +64,13 @@ body{
             color: black;
         }
         #get-start{
+            font-size: small;
+            font-weight: 500;
+            height: 35px;
+            width: 110px;
+            margin-left: 20px;
             color: white;
-            background-color: rgb(73, 76, 255);
+            background: linear-gradient(to right, rgb(68, 71, 247), rgb(116, 24, 228));
         }
         #get-start:hover{
             transform: translatey(-3px);
@@ -84,7 +91,10 @@ body{
         width: 590px;
         margin: 30px 0px 100px 160px;
         padding: 10px;
-
+        
+        #heading1{
+            font-weight: 900;
+        }
         .tag-line{
             padding: 20px 15px;
             text-transform: uppercase;
@@ -106,7 +116,7 @@ body{
             display: flex;
             gap: 15px;
             #start{
-                background-color: rgb(73, 76, 255);
+                background-color: rgb(68, 71, 247);
                 border: 0px solid #000;
                 border-radius: 10px;
                 font-size: medium;
@@ -157,19 +167,46 @@ body{
         }
     }
 
-    .home-right{
-        display: flex;
-        align-items: center; 
+    .home-right{    
         width: 600px;
         border: 0px solid black;
         margin: 100px;
-        padding: 10px;
+        padding: 80px;
     }
     #top{
-        border: 1px solid red;
+        z-index: 2;
+        display: flex;
+        position: relative;
+        height: 70px;
+        width: 230px;
+        margin: -80px 10px;
+        padding: 15px 20px;
+        border: 0px solid;
+        border-radius: 15px;
+        background-color: white;
+        box-shadow: 0px 0px 20px 0px rgba(217, 215, 215, 0.639);
+        #check{
+            text-align: center;
+            font-size: large;
+            height: 40px;
+            width: 40px;
+            padding: 8px;
+            margin-right: 15px;
+            border-radius: 8px;
+            color: rgb(8, 180, 8);
+            background-color: rgba(123, 221, 93, 0.175);
+        }
+        .headline{
+            font-size: small;
+            font-weight: 700;
+        }
+        .dis{
+            color: gray;
+            font-size: small;
+        }
     }
     #big-center{
-        height: 350px;
+        height: 370px;
         width: 470px;
         display: flex;
         margin: 40px;   
@@ -177,7 +214,7 @@ body{
         background-color: white;
         border: 0px solid;
         border-radius: 20px;
-        box-shadow: 0px 0px 40px 0px rgba(208, 208, 208, 0.921);
+        box-shadow: 0px 0px 40px 0px rgba(226, 226, 226, 0.902);
         transition: 0.5s;
         #live{
             height: 30px;
@@ -206,7 +243,36 @@ body{
         box-shadow: 0px 5px 50px 0px  rgba(194, 194, 194, 0.881);
     }
     #bottom{
-        border: 1px solid purple;
+        z-index: 2;
+        display: flex;
+        position: relative;
+        height: 70px;
+        width: 220px;
+        margin: -80px 310px;
+        padding: 15px 20px;
+        border: 0px solid;
+        border-radius: 15px;
+        background-color: white;
+        box-shadow: 0px 0px 20px 0px rgba(217, 215, 215, 0.639);
+        #check{
+            text-align: center;
+            font-size: large;
+            height: 40px;
+            width: 40px;
+            padding: 8px;
+            margin-right: 15px;
+            border-radius: 8px;
+            color: rgb(46, 46, 247);
+            background-color: rgba(124, 160, 251, 0.175);
+        }
+        .headline{
+            font-size: small;
+            font-weight: 700;
+        }
+        .dis{
+            color: gray;
+            font-size: small;
+        }
     }
 }
 
@@ -245,7 +311,7 @@ body{
 .home2{
     padding: 100px 170px;
     height: 48vw;
-    background-color: rgb(232, 244, 254);
+    background-color: rgb(245, 250, 254);
 
     #badge2{
         font-size: small;
@@ -359,7 +425,7 @@ body{
 
     .image{
         height: 500px;
-        width: 630px;
+        width: 600px;
         border-radius: 20px;
         margin-left: 80px;
     }
@@ -368,11 +434,11 @@ body{
         gap: 15px;
         position: relative;
         height: 70px;
-        width: 220px;
+        width: 230px;
         margin: -50px 50px;
         padding: 15px 20px;
         border: 0px solid;
-        border-radius: 20px;
+        border-radius: 10px;
         background-color: white;
         box-shadow: 0px 5px 10px 0px rgba(172, 172, 172, 0.639);
         #award{
@@ -416,6 +482,54 @@ body{
             width: 600px;
             font-size: medium;
             color: rgb(107, 107, 107);
+        }
+        .points{
+
+            #point{
+                    display: flex;
+                    align-items: center;
+                .check{
+                    font-size: small;
+                    height: 30px;
+                    width: 30px;
+                    color: rgb(46, 46, 247);
+                    background-color: rgba(124, 160, 251, 0.175);
+                    border: 0px solid black;
+                    border-radius: 100px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    padding: 10px;
+                    margin-right: 8px;
+                }
+                .para{
+                    margin: 10px;
+                    color: gray;
+                }
+                .main_p{
+                    color: black;
+                    font-weight: 700;
+                }
+            }
+        }
+        #About_us{
+            background: linear-gradient(to right, rgb(68, 71, 247), rgb(116, 24, 228));
+            background-color: rgb(68, 71, 247);
+            border: 0px solid #000;
+            border-radius: 10px;
+            font-size: medium;
+            font-weight: 600;
+            color: white;
+            width: 215px;
+            height: 60px;
+            margin: 20px 0px;
+            transition: 0.3s;
+            box-shadow: 0px 5px 20px 0px rgba(45, 45, 243, 0.409);
+        }
+        #About_us:hover{
+            transform: translatey(-3px);
+            transition: 0.3s;
+            box-shadow: 0px 5px 5px 0px  rgba(120, 122, 255, 0.881);
         }
     }
 }
