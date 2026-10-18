@@ -1,0 +1,16 @@
+
+.bulb{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 100%;
+    margin: 50px;
+}
+
+.b1{
+    background: orange;
+}
+
+.b2{
+    background-color: green;
+}

@@ -558,16 +558,13 @@ body{
 }
 
 .home4{
-    display: flex;
-    justify-content: center;
-    height: 800px;
-    margin-left: 10px;
-    padding-top: 50px ;
-    background: rgba(198, 208, 253, 0.14);
+    height: 630px;
+    background: rgba(131, 195, 251, 0.054);
     
     .badgeclass{
-        margin-top: 60px;
-
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
 
         #badge4{
         font-size: small;
@@ -578,12 +575,166 @@ body{
         border: 0px solid black;
         border-radius: 20px;
         padding: 10px 20px;
+        margin-top: 50px;
+        }
+    }
+    
+    .heading3{
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        margin: 20px;
+    }
+    
+    .discription3{
+        text-align: center;
+        width: 100%;
+        font-size: medium;
+        color: rgb(107, 107, 107);
+        margin-bottom: 80px;
+    }
+
+    .data_cards{
+        display: flex;
+        grid-template-columns: auto auto auto auto;
+        gap: 30px;
+        margin: 20px 200px;
+
+        .card{
+            background-color: inherit;
+            border: 0px solid ;
+
+            .number{
+            font-weight: 900;
+            color: rgb(77, 77, 255);
+            }
+            .head{
+                font-size: x-large;
+                font-weight: 900;
+                color: gray;
+            }
+            .discription{
+            color: rgb(89, 89, 89); 
+            }
         }
         
-        .heading3{
-            font-weight: 800;
-            margin: 30px 0px 20px;
+
+    }
+}
+
+.home5{
+    height: 520px;
+    
+    .badgeclass{
+        margin: 100px 200px 0px;
+
+        #badge5{
+        font-size: small;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: rgb(46, 46, 247);
+        background-color: rgba(124, 160, 251, 0.175);
+        border: 0px solid black;
+        border-radius: 20px;
+        padding: 10px 20px;
+        margin-top: 50px;
         }
+    }
+    
+    .heading5{
+        font-weight: 700;
+        margin: 20px 200px;
+    }
+
+    #services{
+        margin-left: 1300px;
+        border: 0px solid;
+        font-weight: 700;
+        padding: 10px;
+        color: rgb(75, 104, 246);
+        transition: 0.3s;
+    }
+    #services:hover{
+        cursor: pointer;
+        transform: translatex(-10px);
+        transition: 0.3s;
+    }
+
+    .images{
+        display: flex;
+        grid-template-columns: auto auto auto auto;
+        gap: 30px;
+        margin: 20px 200px;
+        overflow: hidden;
+
+        #zoomimages{
+            height: 300px;
+            width: 400px;
+            border: 0px solid black;
+            border-radius: 15px;
+            transition: 0.5s;
+        }
+        #zoomimages:hover{
+            transform: scale(1.1);
+            transition: 0.5s;
+        }
+    }
+}
+
+.home6{
+    height: 630px;
+    background: rgba(112, 126, 201, 0.054);
+    
+    .badgeclass{
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+
+        #badge6{
+        font-size: small;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: rgb(46, 46, 247);
+        background-color: rgba(124, 160, 251, 0.175);
+        border: 0px solid black;
+        border-radius: 20px;
+        padding: 10px 20px;
+        margin-top: 100px;
+        }
+    }
+    
+    .heading6{
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+        margin: 20px;
+    }
+
+    .data_cards{
+        display: flex;
+        grid-template-columns: auto auto auto;
+        gap: 30px;
+        margin: 20px 200px;
+
+        .card{
+            height: 300px;
+            width: 450px;
+            border: 0px solid black;
+            border-radius: 15px;
+            box-shadow: 0px 0px 10px 0px rgba(185, 185, 185, 0.482);
+            padding: 45px;
+
+            #star{
+                font-size: xx-small;
+                padding-bottom: 20px;
+            }
+
+            .discription{
+            color: gray; 
+            }
+        }
+        
+
     }
 }
 
