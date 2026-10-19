@@ -836,14 +836,49 @@ body{
 
 .footer{
     height: 55vh;
-    background-color: rgb(13, 13, 70);
+    background-color: rgb(15, 15, 68);
+    padding: 100px 0px;
 
     .information{
         display: grid;
-        grid-template-columns: auto auto auto auto;
-        justify-content: space-evenly;
-        margin: 50px 100px;
+        grid-template-columns: 28% 15% 15% 32%;
+        justify-content: center;
+        gap: 50px;
+        margin: 0px 100px;
+        padding:    10px 90px;
 
+        .info{
+
+            .head{
+                color: white;
+                text-transform: uppercase;
+                font-size: small;
+                font-weight: 800;
+                margin-bottom: 30px;
+            }
+            .discription{
+                color: rgb(130, 130, 132);
+                margin-bottom: 7px;
+            }
+            .icons{
+                display: flex;
+                .icon{
+                    display: flex;
+                    justify-content: center;
+                    height: 40px;
+                    width: 40px;
+                    color: white;
+                    background-color: rgb(47, 47, 85);
+                    border-radius: 50%;
+                    margin: 20px 10px 0px 0px;
+                    padding: 9px;
+                }
+            }
+        }
+    }
+
+    .line{
         color: white;
+        margin: 70px 180px;
     }
 }
