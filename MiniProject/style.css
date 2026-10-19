@@ -874,11 +874,55 @@ body{
                     padding: 9px;
                 }
             }
+            .sendbox{
+                display: flex;
+                align-items: center;
+                margin-top: 20px;
+                #input{
+                    height: 50px;
+                    width: 350px;
+                    color: white;
+                    background-color: rgb(40, 40, 83);
+                    border: 1px solid gray;
+                    border-radius: 5px;
+                    padding: 20px;
+                }
+                .send{
+                    display: flex;
+                    justify-content: center;
+                    color: white;
+                    font-size: large;
+                    height: 50px;
+                    width: 70px;
+                    border-radius: 6px;
+                    padding: 14px;
+                    margin: 10px;
+                    background: linear-gradient(to right, rgb(68, 71, 247), rgb(77, 19, 147));
+
+                }
+            }
         }
     }
 
     .line{
         color: white;
-        margin: 70px 180px;
+        margin: 50px 180px 0px;
+    }
+
+    .copy-right{
+        display: grid;
+        grid-template-columns: 78% 10% 15%;
+        gap: 10px;
+        margin: 27px 170px;
+        padding: 10px;
+        #copyright{
+            color: rgb(193, 193, 193);
+            font-size: small;
+        }
+        .control{
+            color: rgb(177, 177, 177);
+            font-size: medium;
+            font-weight: 300;
+        }
     }
 }
