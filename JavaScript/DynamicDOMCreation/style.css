@@ -1,0 +1,8 @@
+.nav-link{
+    cursor: pointer;
+    transition: 0.2s;
+}
+.nav-link:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
