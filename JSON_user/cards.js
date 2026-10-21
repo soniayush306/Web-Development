@@ -6,7 +6,7 @@ const data = [
     button2: "Bye Now",
   },
   {
-    title: "Samsung S25 ultra",
+    title: "Samsung Fold Z",
     description: "It is very good phone, Please do not purchase it at all",
     button1: "1,25,000",
     button2: "Bye Now",
@@ -30,9 +30,9 @@ const data = [
     button2: "Bye Now",
   },
   {
-    title: "Iphone",
+    title: "Vivo T3x",
     description: "It is very good phone, Please do not purchase it at all",
-    button1: "10,000",
+    button1: "24,996",
     button2: "Bye Now",
   },
 ];
